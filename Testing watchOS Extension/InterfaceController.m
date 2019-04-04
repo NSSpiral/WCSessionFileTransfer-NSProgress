@@ -63,13 +63,13 @@ static void *ProgressObserverContextIncoming = &ProgressObserverContextIncoming;
     NSLog(@"metadata %@", [file metadata]);
     
     //Suppress @available watchOS 5.0 warning (optional)
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wunguarded-availability-new"
+    #pragma clang diagnostic push
+    #pragma clang diagnostic ignored "-Wunguarded-availability-new"
     [fileTransfer.progress addObserver:self
                             forKeyPath:NSStringFromSelector(@selector(fractionCompleted))
                                options:NSKeyValueObservingOptionInitial
                                context:ProgressObserverContextIncoming];
-#pragma clang diagnostics pop
+    #pragma clang diagnostics pop
     
 }
 
