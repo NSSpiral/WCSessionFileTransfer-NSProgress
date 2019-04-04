@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D9CCD91225053AD00D1EA88 /* WCSessionFileTransfer+NSProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC371422240EF3F008ABF3C /* WCSessionFileTransfer+NSProgress.m */; };
+		4DC370E82240E89A008ABF3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC370E72240E89A008ABF3C /* AppDelegate.m */; };
+		4DC370EB2240E89A008ABF3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC370EA2240E89A008ABF3C /* main.m */; };
+		4DC370EE2240E89A008ABF3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC370ED2240E89A008ABF3C /* ViewController.m */; };
+		4DC370F02240E89A008ABF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC370EF2240E89A008ABF3C /* Assets.xcassets */; };
+		4DC370F32240E89A008ABF3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC370F12240E89A008ABF3C /* Main.storyboard */; };
+		4DC371022240E8F8008ABF3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC371012240E8F8008ABF3C /* main.m */; };
+		4DC371052240E8F8008ABF3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC371042240E8F8008ABF3C /* AppDelegate.m */; };
+		4DC371082240E8F8008ABF3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC371072240E8F8008ABF3C /* ViewController.m */; };
+		4DC3710B2240E8F8008ABF3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC371092240E8F8008ABF3C /* Main.storyboard */; };
+		4DC3710D2240E8F8008ABF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC3710C2240E8F8008ABF3C /* Assets.xcassets */; };
+		4DC371102240E8F8008ABF3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC3710E2240E8F8008ABF3C /* LaunchScreen.storyboard */; };
+		4DC3711B2240E92D008ABF3C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC371192240E92D008ABF3C /* Interface.storyboard */; };
+		4DC3711D2240E92D008ABF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC3711C2240E92D008ABF3C /* Assets.xcassets */; };
+		4DC371242240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4DC371232240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4DC3712C2240E92D008ABF3C /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3712B2240E92D008ABF3C /* InterfaceController.m */; };
+		4DC3712F2240E92D008ABF3C /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3712E2240E92D008ABF3C /* ExtensionDelegate.m */; };
+		4DC371322240E92D008ABF3C /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC371312240E92D008ABF3C /* NotificationController.m */; };
+		4DC371342240E92D008ABF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC371332240E92D008ABF3C /* Assets.xcassets */; };
+		4DC371382240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4DC371172240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS.app */; };
+		4DC371442240EF3F008ABF3C /* WCSessionFileTransfer+NSProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC371422240EF3F008ABF3C /* WCSessionFileTransfer+NSProgress.m */; };
+		A525EED42255847C00D4B6C3 /* testfile in Resources */ = {isa = PBXBuildFile; fileRef = A525EED32255847C00D4B6C3 /* testfile */; };
+		A525EED52255847C00D4B6C3 /* testfile in Resources */ = {isa = PBXBuildFile; fileRef = A525EED32255847C00D4B6C3 /* testfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DC371252240E92D008ABF3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC370DB2240E89A008ABF3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC371222240E92D008ABF3C;
+			remoteInfo = "Testing watchOS Extension";
+		};
+		4DC371362240E92D008ABF3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DC370DB2240E89A008ABF3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DC371162240E92D008ABF3C;
+			remoteInfo = "Testing watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4DC3713C2240E92D008ABF3C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4DC371242240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC371402240E92D008ABF3C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4DC371382240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4DC370E32240E89A008ABF3C /* WCSessionFileTransfer-NSProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WCSessionFileTransfer-NSProgress.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC370E62240E89A008ABF3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DC370E72240E89A008ABF3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DC370EA2240E89A008ABF3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DC370EC2240E89A008ABF3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DC370ED2240E89A008ABF3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DC370EF2240E89A008ABF3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DC370F22240E89A008ABF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DC370F42240E89A008ABF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC370FE2240E8F8008ABF3C /* WCSessionFileTransfer-NSProgress iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WCSessionFileTransfer-NSProgress iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC371012240E8F8008ABF3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DC371032240E8F8008ABF3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DC371042240E8F8008ABF3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DC371062240E8F8008ABF3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DC371072240E8F8008ABF3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DC3710A2240E8F8008ABF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DC3710C2240E8F8008ABF3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DC3710F2240E8F8008ABF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DC371112240E8F8008ABF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC371172240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WCSessionFileTransfer-NSProgress watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC3711A2240E92D008ABF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4DC3711C2240E92D008ABF3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DC3711E2240E92D008ABF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC371232240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WCSessionFileTransfer-NSProgress watchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC371292240E92D008ABF3C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4DC3712A2240E92D008ABF3C /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		4DC3712B2240E92D008ABF3C /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		4DC3712D2240E92D008ABF3C /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		4DC3712E2240E92D008ABF3C /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		4DC371302240E92D008ABF3C /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		4DC371312240E92D008ABF3C /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		4DC371332240E92D008ABF3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DC371352240E92D008ABF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC371412240EF3F008ABF3C /* WCSessionFileTransfer+NSProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WCSessionFileTransfer+NSProgress.h"; sourceTree = "<group>"; };
+		4DC371422240EF3F008ABF3C /* WCSessionFileTransfer+NSProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WCSessionFileTransfer+NSProgress.m"; sourceTree = "<group>"; };
+		A525EED32255847C00D4B6C3 /* testfile */ = {isa = PBXFileReference; lastKnownFileType = file; path = testfile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DC370E02240E89A008ABF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC370FB2240E8F8008ABF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC371202240E92D008ABF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DC370DA2240E89A008ABF3C = {
+			isa = PBXGroup;
+			children = (
+				A525EED32255847C00D4B6C3 /* testfile */,
+				4DC371412240EF3F008ABF3C /* WCSessionFileTransfer+NSProgress.h */,
+				4DC371422240EF3F008ABF3C /* WCSessionFileTransfer+NSProgress.m */,
+				4DC370E52240E89A008ABF3C /* Testing */,
+				4DC370FF2240E8F8008ABF3C /* Testing iOS */,
+				4DC371182240E92D008ABF3C /* Testing watchOS */,
+				4DC371272240E92D008ABF3C /* Testing watchOS Extension */,
+				4DC370E42240E89A008ABF3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DC370E42240E89A008ABF3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DC370E32240E89A008ABF3C /* WCSessionFileTransfer-NSProgress.app */,
+				4DC370FE2240E8F8008ABF3C /* WCSessionFileTransfer-NSProgress iOS.app */,
+				4DC371172240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS.app */,
+				4DC371232240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DC370E52240E89A008ABF3C /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				4DC370E62240E89A008ABF3C /* AppDelegate.h */,
+				4DC370E72240E89A008ABF3C /* AppDelegate.m */,
+				4DC370EC2240E89A008ABF3C /* ViewController.h */,
+				4DC370ED2240E89A008ABF3C /* ViewController.m */,
+				4DC370EF2240E89A008ABF3C /* Assets.xcassets */,
+				4DC370F12240E89A008ABF3C /* Main.storyboard */,
+				4DC370F42240E89A008ABF3C /* Info.plist */,
+				4DC370E92240E89A008ABF3C /* Supporting Files */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		4DC370E92240E89A008ABF3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DC370EA2240E89A008ABF3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DC370FF2240E8F8008ABF3C /* Testing iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4DC371032240E8F8008ABF3C /* AppDelegate.h */,
+				4DC371042240E8F8008ABF3C /* AppDelegate.m */,
+				4DC371062240E8F8008ABF3C /* ViewController.h */,
+				4DC371072240E8F8008ABF3C /* ViewController.m */,
+				4DC371092240E8F8008ABF3C /* Main.storyboard */,
+				4DC3710C2240E8F8008ABF3C /* Assets.xcassets */,
+				4DC3710E2240E8F8008ABF3C /* LaunchScreen.storyboard */,
+				4DC371112240E8F8008ABF3C /* Info.plist */,
+				4DC371002240E8F8008ABF3C /* Supporting Files */,
+			);
+			path = "Testing iOS";
+			sourceTree = "<group>";
+		};
+		4DC371002240E8F8008ABF3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DC371012240E8F8008ABF3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DC371182240E92D008ABF3C /* Testing watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				4DC371192240E92D008ABF3C /* Interface.storyboard */,
+				4DC3711C2240E92D008ABF3C /* Assets.xcassets */,
+				4DC3711E2240E92D008ABF3C /* Info.plist */,
+			);
+			path = "Testing watchOS";
+			sourceTree = "<group>";
+		};
+		4DC371272240E92D008ABF3C /* Testing watchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4DC3712A2240E92D008ABF3C /* InterfaceController.h */,
+				4DC3712B2240E92D008ABF3C /* InterfaceController.m */,
+				4DC3712D2240E92D008ABF3C /* ExtensionDelegate.h */,
+				4DC3712E2240E92D008ABF3C /* ExtensionDelegate.m */,
+				4DC371302240E92D008ABF3C /* NotificationController.h */,
+				4DC371312240E92D008ABF3C /* NotificationController.m */,
+				4DC371332240E92D008ABF3C /* Assets.xcassets */,
+				4DC371352240E92D008ABF3C /* Info.plist */,
+				4DC371282240E92D008ABF3C /* Supporting Files */,
+			);
+			path = "Testing watchOS Extension";
+			sourceTree = "<group>";
+		};
+		4DC371282240E92D008ABF3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DC371292240E92D008ABF3C /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DC370E22240E89A008ABF3C /* WCSessionFileTransfer-NSProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC370F72240E89A008ABF3C /* Build configuration list for PBXNativeTarget "WCSessionFileTransfer-NSProgress" */;
+			buildPhases = (
+				4DC370DF2240E89A008ABF3C /* Sources */,
+				4DC370E02240E89A008ABF3C /* Frameworks */,
+				4DC370E12240E89A008ABF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WCSessionFileTransfer-NSProgress";
+			productName = Testing;
+			productReference = 4DC370E32240E89A008ABF3C /* WCSessionFileTransfer-NSProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DC370FD2240E8F8008ABF3C /* WCSessionFileTransfer-NSProgress iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC371122240E8F8008ABF3C /* Build configuration list for PBXNativeTarget "WCSessionFileTransfer-NSProgress iOS" */;
+			buildPhases = (
+				4DC370FA2240E8F8008ABF3C /* Sources */,
+				4DC370FB2240E8F8008ABF3C /* Frameworks */,
+				4DC370FC2240E8F8008ABF3C /* Resources */,
+				4DC371402240E92D008ABF3C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DC371372240E92D008ABF3C /* PBXTargetDependency */,
+			);
+			name = "WCSessionFileTransfer-NSProgress iOS";
+			productName = "Testing iOS";
+			productReference = 4DC370FE2240E8F8008ABF3C /* WCSessionFileTransfer-NSProgress iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DC371162240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC3713D2240E92D008ABF3C /* Build configuration list for PBXNativeTarget "WCSessionFileTransfer-NSProgress watchOS" */;
+			buildPhases = (
+				4DC371152240E92D008ABF3C /* Resources */,
+				4DC3713C2240E92D008ABF3C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DC371262240E92D008ABF3C /* PBXTargetDependency */,
+			);
+			name = "WCSessionFileTransfer-NSProgress watchOS";
+			productName = "Testing watchOS";
+			productReference = 4DC371172240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4DC371222240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DC371392240E92D008ABF3C /* Build configuration list for PBXNativeTarget "WCSessionFileTransfer-NSProgress watchOS Extension" */;
+			buildPhases = (
+				4DC3711F2240E92D008ABF3C /* Sources */,
+				4DC371202240E92D008ABF3C /* Frameworks */,
+				4DC371212240E92D008ABF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WCSessionFileTransfer-NSProgress watchOS Extension";
+			productName = "Testing watchOS Extension";
+			productReference = 4DC371232240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DC370DB2240E89A008ABF3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = spiral;
+				TargetAttributes = {
+					4DC370E22240E89A008ABF3C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E4V2A7WYY7;
+						ProvisioningStyle = Automatic;
+					};
+					4DC370FD2240E8F8008ABF3C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E4V2A7WYY7;
+						ProvisioningStyle = Automatic;
+					};
+					4DC371162240E92D008ABF3C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E4V2A7WYY7;
+						ProvisioningStyle = Automatic;
+					};
+					4DC371222240E92D008ABF3C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E4V2A7WYY7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4DC370DE2240E89A008ABF3C /* Build configuration list for PBXProject "WCSessionFileTransfer-NSProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DC370DA2240E89A008ABF3C;
+			productRefGroup = 4DC370E42240E89A008ABF3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DC370E22240E89A008ABF3C /* WCSessionFileTransfer-NSProgress */,
+				4DC370FD2240E8F8008ABF3C /* WCSessionFileTransfer-NSProgress iOS */,
+				4DC371162240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS */,
+				4DC371222240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DC370E12240E89A008ABF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC370F02240E89A008ABF3C /* Assets.xcassets in Resources */,
+				4DC370F32240E89A008ABF3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC370FC2240E8F8008ABF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A525EED42255847C00D4B6C3 /* testfile in Resources */,
+				4DC371102240E8F8008ABF3C /* LaunchScreen.storyboard in Resources */,
+				4DC3710D2240E8F8008ABF3C /* Assets.xcassets in Resources */,
+				4DC3710B2240E8F8008ABF3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC371152240E92D008ABF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC3711D2240E92D008ABF3C /* Assets.xcassets in Resources */,
+				4DC3711B2240E92D008ABF3C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC371212240E92D008ABF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A525EED52255847C00D4B6C3 /* testfile in Resources */,
+				4DC371342240E92D008ABF3C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DC370DF2240E89A008ABF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC370EE2240E89A008ABF3C /* ViewController.m in Sources */,
+				4DC370EB2240E89A008ABF3C /* main.m in Sources */,
+				4DC370E82240E89A008ABF3C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC370FA2240E8F8008ABF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC371082240E8F8008ABF3C /* ViewController.m in Sources */,
+				4D9CCD91225053AD00D1EA88 /* WCSessionFileTransfer+NSProgress.m in Sources */,
+				4DC371052240E8F8008ABF3C /* AppDelegate.m in Sources */,
+				4DC371022240E8F8008ABF3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DC3711F2240E92D008ABF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC3712F2240E92D008ABF3C /* ExtensionDelegate.m in Sources */,
+				4DC371442240EF3F008ABF3C /* WCSessionFileTransfer+NSProgress.m in Sources */,
+				4DC3712C2240E92D008ABF3C /* InterfaceController.m in Sources */,
+				4DC371322240E92D008ABF3C /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DC371262240E92D008ABF3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DC371222240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS Extension */;
+			targetProxy = 4DC371252240E92D008ABF3C /* PBXContainerItemProxy */;
+		};
+		4DC371372240E92D008ABF3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DC371162240E92D008ABF3C /* WCSessionFileTransfer-NSProgress watchOS */;
+			targetProxy = 4DC371362240E92D008ABF3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DC370F12240E89A008ABF3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC370F22240E89A008ABF3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DC371092240E8F8008ABF3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC3710A2240E8F8008ABF3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DC3710E2240E8F8008ABF3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC3710F2240E8F8008ABF3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4DC371192240E92D008ABF3C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC3711A2240E92D008ABF3C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DC370F52240E89A008ABF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4DC370F62240E89A008ABF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4DC370F82240E89A008ABF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E4V2A7WYY7;
+				INFOPLIST_FILE = Testing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sonic.Testing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DC370F92240E89A008ABF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E4V2A7WYY7;
+				INFOPLIST_FILE = Testing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sonic.Testing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4DC371132240E8F8008ABF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = E4V2A7WYY7;
+				INFOPLIST_FILE = "Testing iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sonic.Testing-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DC371142240E8F8008ABF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = E4V2A7WYY7;
+				INFOPLIST_FILE = "Testing iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sonic.Testing-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DC3713A2240E92D008ABF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = E4V2A7WYY7;
+				INFOPLIST_FILE = "Testing watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sonic.Testing-iOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		4DC3713B2240E92D008ABF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = E4V2A7WYY7;
+				INFOPLIST_FILE = "Testing watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sonic.Testing-iOS.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		4DC3713E2240E92D008ABF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E4V2A7WYY7;
+				IBSC_MODULE = Testing_watchOS_Extension;
+				INFOPLIST_FILE = "Testing watchOS/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "sonic.Testing-iOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		4DC3713F2240E92D008ABF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E4V2A7WYY7;
+				IBSC_MODULE = Testing_watchOS_Extension;
+				INFOPLIST_FILE = "Testing watchOS/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "sonic.Testing-iOS.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DC370DE2240E89A008ABF3C /* Build configuration list for PBXProject "WCSessionFileTransfer-NSProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC370F52240E89A008ABF3C /* Debug */,
+				4DC370F62240E89A008ABF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC370F72240E89A008ABF3C /* Build configuration list for PBXNativeTarget "WCSessionFileTransfer-NSProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC370F82240E89A008ABF3C /* Debug */,
+				4DC370F92240E89A008ABF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC371122240E8F8008ABF3C /* Build configuration list for PBXNativeTarget "WCSessionFileTransfer-NSProgress iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC371132240E8F8008ABF3C /* Debug */,
+				4DC371142240E8F8008ABF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC371392240E92D008ABF3C /* Build configuration list for PBXNativeTarget "WCSessionFileTransfer-NSProgress watchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC3713A2240E92D008ABF3C /* Debug */,
+				4DC3713B2240E92D008ABF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DC3713D2240E92D008ABF3C /* Build configuration list for PBXNativeTarget "WCSessionFileTransfer-NSProgress watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DC3713E2240E92D008ABF3C /* Debug */,
+				4DC3713F2240E92D008ABF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DC370DB2240E89A008ABF3C /* Project object */;
+}
